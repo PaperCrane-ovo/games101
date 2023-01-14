@@ -3,5 +3,5 @@
 */dist/
 */.idea/
 */.gradle/
-#*/.DS_Store
+*/.DS_Store
 */.vscode
