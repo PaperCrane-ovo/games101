@@ -1,2 +1,7 @@
 # .gitignore
 */build/
+*/dist/
+*/.idea/
+*/.gradle/
+*/.DS_Store
+*/.vscode
