@@ -80,9 +80,13 @@ class rasterizer {
     std::map<int, std::vector<Eigen::Vector3f>> col_buf;
 
     std::vector<Eigen::Vector3f> frame_buf;
+    std::vector<Eigen::Vector3f> msaa_buf;
 
     std::vector<float> depth_buf;
+    std::vector<float> msaa_depth_buf;
+
     int get_index(int x, int y);
+    int get_msaa_index(int x, int y);
 
     int width, height;
 
